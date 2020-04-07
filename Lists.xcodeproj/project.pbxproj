@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8918AEE5243BFBB6000A1677 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918AEE4243BFBB6000A1677 /* CircleImage.swift */; };
+		8918AEE7243BFC71000A1677 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918AEE6243BFC71000A1677 /* MapView.swift */; };
 		893EA5DF243BB5620008CA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893EA5DE243BB5620008CA2B /* AppDelegate.swift */; };
 		893EA5E1243BB5620008CA2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893EA5E0243BB5620008CA2B /* SceneDelegate.swift */; };
 		893EA5E3243BB5620008CA2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893EA5E2243BB5620008CA2B /* ContentView.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8918AEE4243BFBB6000A1677 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8918AEE6243BFC71000A1677 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		893EA5DB243BB5620008CA2B /* Lists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		893EA5DE243BB5620008CA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		893EA5E0243BB5620008CA2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				893EA5E0243BB5620008CA2B /* SceneDelegate.swift */,
 				893EA5E2243BB5620008CA2B /* ContentView.swift */,
 				893EA5E4243BB5630008CA2B /* Assets.xcassets */,
+				8918AEE4243BFBB6000A1677 /* CircleImage.swift */,
+				8918AEE6243BFC71000A1677 /* MapView.swift */,
 				893EA5E9243BB5630008CA2B /* LaunchScreen.storyboard */,
 				893EA5EC243BB5630008CA2B /* Info.plist */,
 				893EA5E6243BB5630008CA2B /* Preview Content */,
@@ -209,6 +215,8 @@
 			files = (
 				893EA5DF243BB5620008CA2B /* AppDelegate.swift in Sources */,
 				893EA5E1243BB5620008CA2B /* SceneDelegate.swift in Sources */,
+				8918AEE7243BFC71000A1677 /* MapView.swift in Sources */,
+				8918AEE5243BFBB6000A1677 /* CircleImage.swift in Sources */,
 				893EA5E3243BB5620008CA2B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,13 +371,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Lists/Preview Content\"";
+				DEVELOPMENT_TEAM = UW25P734Y8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Lists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Lists;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lmao.Lists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,13 +391,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Lists/Preview Content\"";
+				DEVELOPMENT_TEAM = UW25P734Y8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Lists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Lists;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lmao.Lists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
