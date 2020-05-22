@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             MapView()
-            .frame(height: CGFloat(300))
+                .frame(height: 300)
             .edgesIgnoringSafeArea(.top)
 
             CircleImage()
